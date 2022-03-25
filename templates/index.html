@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <h1>Laptop Price Prediction </h1>
+    <form action="{{ url_for("gfg")}}" method="post">
+
+    <label for="Company"> Company:</label>
+    <select id="Company" name="Company">
+    <option value="1">Apple </option>
+    <option value="7">HP </option>
+     <option value="0">Acer </option>
+     <option value="2">Asus </option>
+      <option value="4">Dell </option>
+       <option value="10">Lenovo </option>
+        <option value="3">Chuwi </option>
+        <option value="11">MSI </option>
+        <option value="13">Microsoft </option>
+        <option value="16">Toshiba </option>
+        <option value="8">Huawei </option>
+        <option value="18">Xiaomi </option>
+        <option value="17">Vero </option>
+        <option value="14">Razer </option>
+        <option value="12">Mediacom </option>
+        <option value="15">Samsung </option>
+        <option value="6">Google </option>
+        <option value="5">Fujitsu </option>
+        <option value="9">LG </option>
+
+    </select>
+
+    <label for="TypeName">TypeName :</label>
+    <select id="TypeName" name="TypeName">
+     <option value="4">Ultrabook </option>
+    <option value="3">Notebook </option>
+     <option value="2">Netbook </option>
+    <option value="1">Gaming </option>
+    <option value="0">2 in 1 Convertible </option>
+    <option value="5">Workstation </option>
+
+    </select>
+
+    <label for="Inches">Inches:</label>
+<input type="text" id="Inches" name="Inches" placeholder="Inches">
+
+    <label for="Cpu_Type">Cpu_Type :</label>
+    <select id="Cpu_Type" name="Cpu_Type">
+    <option value="17">Core i5 </option>
+    <option value="18">Core i7 </option>
+    <option value="11">A9-Series 9420 </option>
+    <option value="16">Core i3 </option>
+    <option value="15">Core M </option>
+    <option value="28">I n t e l </option>
+    <option value="25">E-Series E2-9000e </option>
+    <option value="23">E-Series E2-6110 </option>
+    <option value="7">A6-Series 9220 </option>
+    <option value="13">Celeron Dual Core </option>
+    <option value="30">Ryzen 1700 </option>
+    <option value="27">FX 9830P </option>
+    <option value="19">E-Series 6110 </option>
+    <option value="22">E-Series 9000e </option>
+    <option value="2">A10-Series A10-9620P </option>
+    <option value="8">A6-Series A6-9220 </option>
+    <option value="0">A10-Series 9600P </option>
+    <option value="9">A8-Series 7410 </option>
+    <option value="4">A12-Series 9720P </option>
+    <option value="14">Celeron Quad Core </option>
+    <option value="29">Ryzen 1600 </option>
+    <option value="1">A10-Series 9620P </option>
+    <option value="20">E-Series 7110 </option>
+    <option value="12">A9-Series A9-9420 </option>
+    <option value="24">E-Series E2-9000 </option>
+    <option value="6">A6-Series 7310</option>
+    <option value="3">A12-Series 9700P </option>
+    <option value="5">A4-Series 7210 </option>
+    <option value="26">FX 8800P </option>
+    <option value="31">S a m s u n g </option>
+    <option value="21">E-Series 9000</option>
+    <option value="10">A9-Series 9410</option>
+    </select>
+
+    <label for="Ram">Ram:</label>
+<input type="text" id="Ram" name="Ram" placeholder="Ram">
+
+    <label for="Storage (GB)">Storage (GB)	:</label>
+<input type="text" id="Storage (GB)" name="Storage (GB)" placeholder="Storage (GB)">
+
+<button type="submit">Search</button>
+</body>
+</html>
